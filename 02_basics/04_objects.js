@@ -72,9 +72,44 @@ const User = [
         location : "Sagar Madhaya Pradesh"
     },
 ]
-User[1].email
-console.log(tinderUser);
-console.log(Object.keys(tinderUser));
-console.log(Object.values(tinderUser));
-console.log(tinderUser.hasOwnProperty ('isloggedIn'));
-console.log(tinderUser.hasOwnProperty ('islogged'));
+// User[1].email
+// console.log(tinderUser);
+// console.log(Object.keys(tinderUser));
+// console.log(Object.values(tinderUser));
+// console.log(tinderUser.hasOwnProperty ('isloggedIn'));
+// console.log(tinderUser.hasOwnProperty ('islogged'));
+
+
+//  learning the destructuring of the objects in the js 
+
+const course = {
+    courseName : "Learing Js Hindi " ,
+    Price : "2000",
+    courseInstructor : "Ishmeet"
+}
+// course.courseInstructor // completely correct but will be optimizing it for the syntx sugar 
+
+const {courseInstructor  : Istructor } = course // {} - is for the destructuring in the objects  //  now after decelering it in this way can print it in the console log(courseInstructor) so here we go l'ii be showing it to you  thanks   && we can change the name of the course instructor to instructor that is 
+
+// console.log(courseInstructor);
+console.log(Istructor);
+
+
+//  what is api and how it is called in the subcontext 
+//   {
+//     "name" : "Ishmeet " ,
+//     "courseName" : "Js IN Hindi ",
+//     "price" : "free"
+
+//   }
+
+
+// The API can be in the fromat of the array that contains objects within it contains keys and the data 
+
+[
+    {},
+    {},
+    {}
+
+
+]
