@@ -71,3 +71,24 @@
 // }else{console.log("less than 1200" );
 
 // }
+
+
+
+const userLoggedIn = true 
+const debtCard = true
+const loggedInFromGoogle = false
+const loggedInFromMail = false
+
+
+
+if (userLoggedIn && debtCard && 2 == 3 ) {
+    console.log("Allow to purchse the course ");
+    
+}
+
+
+if(loggedInFromGoogle || loggedInFromMail) {
+    console.log("user logged in ")
+} else{
+   console.log ("user is not logged in ");
+}
