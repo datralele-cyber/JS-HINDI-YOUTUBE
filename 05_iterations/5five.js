@@ -50,3 +50,7 @@ const myCoding = [
     // console.log(index);
     // console.log(arr);
  })
+
+
+
+ // the following in line functions are also known as the call back functions thats it for this 5 five .js file for now thanks .
