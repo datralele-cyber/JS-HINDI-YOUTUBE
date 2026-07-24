@@ -1,0 +1,28 @@
+// 
+// const coding = [ "js","ruby ","python ","java","cpp "]
+
+//    const values =  coding.forEach((item)=> {
+//         // console.log(item)
+//         return item 
+//     }) // that is that it is havingan call back loop 
+
+// console.log(values);
+
+
+
+const myNums = [1,2,3,4,5,6,7,8,9,10]
+
+// const newNums = myNums.filter((num) => {
+//     return num  > 4
+// });   //basics of the filters 
+// console.log(newNums);
+
+// const newNums = []
+//  myNums.forEach((num)=> {
+//     if (num > 4) {
+//         newNums.push(num);
+//         console.log(`the number added to the array is ${num}`) // just an complimentry code from ishmeet 
+        
+//     }
+// })
+// console.log(newNums);
