@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> html Events </title>
+</head>
+<body  style   = " background-color: #414141 ; color: aliceblue;" >
+    <h2>Amazing images</h2>
+
+    <div>
+        <ul id =images >
+         id="images">
+            <li><img width="200px" id="photoshop" src="https://images.pexels.com/photos/3561339/pexels-photo-3561339.jpeg?auto=compress&cs=tinysrgb&w=1600&lazy=load" alt="photoshop"></li>
+            <li><img width="200px" id="japan" src="https://images.pexels.com/photos/3532553/pexels-photo-3532553.jpeg?auto=compress&cs=tinysrgb&w=1600&lazy=load" alt=""></li>
+            <li><img width="200px" id="river" src="https://images.pexels.com/photos/3532551/pexels-photo-3532551.jpeg?auto=compress&cs=tinysrgb&w=1600&lazy=load" alt="" ></li> 
+            <li><img width="200px" id="owl" src="https://images.pexels.com/photos/3532552/pexels-photo-3532552.jpeg?auto=compress&cs=tinysrgb&w=1600&lazy=load" alt="" ></li>
+            <li><img width="200px" id="prayer" src="https://images.pexels.com/photos/2522671/pexels-photo-2522671.jpeg?auto=compress&cs=tinysrgb&w=1600&lazy=load" alt=""></li>
+            <li><a style="color: rgb(210, 206, 206);" href="https://google.com" id="google">Google</a></li>
+        </ul>
+    </div>
+</body>
+<script>
+// javascript is an sequentially running language hai .
+// document.getElementById('owl').onclick = function(){. //on click will give us the limited access so it it more preffered to use the event listenrs for more propgation in the code 
+//     alert("Owl Clicked ")
+                      // it gives the access to many events just as trello that is allassent ka product hai dekhna plz 
+
+// attach event 
+//jquery just as react 
+document.getElementById('owl').addEventListener('click' , function (e) {
+} ,false) 
+// type
+// timestamp 
+// default prevent 
+//target or two ekement
+// scrElement 
+// document.getElementById('images').addEventListener('click' , function (e) {
+//     console.log("clicked inside the list ")    
+// },false)
+// document.getElementById('owl').addEventListener('click' , function (e) {
+//     console.log("Owl is clicked " ); e.stopImmediatePropagation} , false)
+
+
+// document.getElementById=("google").addEventListener('click' , function (e) {
+//     console.log("google click")
+//      e.preventDefault();
+//      e.stopImmediatePropagation()
+//     }, false)
+
+document.querySelector('#images').addEventListener
+('click' ,function(e){
+    console.log(e.target.parentNode)
+    let removeIt = e.target.parentnode
+    removeIt.remove()
+
+}, false )
+</script>
+</html>
