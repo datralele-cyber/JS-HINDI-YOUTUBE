@@ -1,1 +1,1 @@
-console.log("Just checking the proper functional voids ")
+console.log("if you see it tha all the installed extenstion on the VM is working well thanks  ")
