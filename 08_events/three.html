@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chai aur code </title>
+</head>
+<body>
+    <h1>Chai Aur JavaScript</h1>
+    <button id="start">Start</button>
+    <button id="stop">Stop</button>
+    
+</body>
+<script>
+     const instruction_buttons_start  = document.getElementById("start")
+     const instruction_buttons_stop = document.getElementById("stop")
+ 
+     instruction_buttons_start.addEventListener("click", function(){
+        myInterval = setInterval(function(){
+            console.log("running " ,Date.now());
+        } ,1000);
+    });
+    instruction_buttons_stop.addEventListener("click", function(){
+        console.log("Just stopped my interval thanks");
+        clearInterval(myInterval)
+    });
+    // now moving to 
+    
+</script>
+</html>

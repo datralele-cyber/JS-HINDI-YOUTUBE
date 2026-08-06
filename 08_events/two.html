@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chai air code in progress </title>
+</head>
+<body>
+    
+</body>
+<h1>Chai aur code hindi </h1>
+<button id="stop"></button>
+<script>
+    const sayIshmeet = function(){
+        console.log("Ishmeet Singh Sodhi ")
+    }
+    // setInterval(function(){
+//     console.log("Ishmeeet ignore people that uses you thanks")
+// },0)
+setTimeout(sayIshmeet,2000)
+const chnage_text = function() {document.querySelector('h1').innerHTML = " Best series of the javascript "}
+
+ const changeMe = setTimeout(chnage_text, 2000)
+
+document.querySelector('#stop').addEventListener('click' ,function() {
+    clearTimeout(changeMe) 
+    console.log("Stopped ") 
+}) 
+
+
+
+
+
+
+
+
+</script>
+</html>
