@@ -76,6 +76,8 @@ form.addEventListener('submit' , function (e){
   }
 })
 ```
+
+
 ## Project No.3 
 That is on the laocal time string and the carry on function that is to run the program till an specified time that it . 
 
@@ -189,4 +191,73 @@ function newGame() {
   });
 }
 ```
-# Abhi To Itna Hiiiii.......
+
+
+## Project 5 
+```Java Script //just the collect the inputs that are given to windows
+const insert = document.getElementById('insert');
+
+window.addEventListener('keydown', (e) => {
+  insert.innerHTML = `
+  <div class = 'colcour' >
+  <table s>
+  <tr>
+    <th>key</th>
+    <th>keycode</th>
+    <th>code</th>
+  </tr>
+  <tr>
+    <td>${e.key === ' ' ? 'Space ' : e.key}</td>
+    <td>${e.keyCode}</td>
+    <td>${e.code}</td>
+  </tr>
+</table>
+  
+  </div>`;
+});
+
+```
+
+
+## Project 6 
+```Java Script 
+// generate the random colour using the HEX code 
+//which will eventually change the background colour 
+const random_colour = function (){
+  const hex = "01234566789ABCDEF"
+  let colour = '#'
+  for( let i = 0; i < 6 ; i++){
+    colour += hex[(Math.floor(Math.random() *16))]
+  };
+  return colour 
+};
+
+let intervalId;
+const start_bg_change = function (){
+ if(!intervalId){
+  intervalId = setInterval(start_change,1000);
+ }
+
+
+
+
+  function start_change(){
+    document.body.style.backgroundColor = random_colour();
+  }
+};
+
+
+const stop_bg_change = function(){
+  clearInterval(intervalId);
+  intervalId = null ; 
+};
+
+document.querySelector('#start').addEventListener('click',start_bg_change);
+document.querySelector('#stop').addEventListener('click',stop_bg_change);
+
+// const stop_bg_change = document.getElementById("clicked")
+
+});
+
+```
+# Abhi To Itna Hiiiii Thankss.......
