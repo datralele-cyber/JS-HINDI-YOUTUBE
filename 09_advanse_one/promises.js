@@ -64,10 +64,4 @@ const promiseFive  = new Promise(function(resolve ,reject){
             reject('Error : JS went wrong  ')
         }
         
-    },1000)
-
-    
-
-
-
-    promiseFive.then()
+    },1000);
