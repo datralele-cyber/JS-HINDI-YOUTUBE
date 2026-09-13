@@ -36,3 +36,7 @@ const userOne  = new  User("Ishmeet" ,8 , true )
 const userTwo = new User ("Hitesh " , 22 , false)
 console.log(userOne.constructor);
 // console.log(userTwo);
+
+
+console.log("Ishmeet") //to make an check code for it to run it in the codespace  terminal  
+//node 10_class_and_oop/oop.js
