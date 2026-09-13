@@ -29,3 +29,14 @@ object literal
 - Polymorphism  many forms 
 - Encapsulation
 - Inheretance / Newkeyword consolelike
+
+
+# NEW 
+- new always creates an new Object 
+constructor function calls due to the new keyword
+in the 3rd step all the arguments are get injected in the new object
+at the end we will able to find in the function that i sthe user we have created
+
+# instanceof
+
+   
