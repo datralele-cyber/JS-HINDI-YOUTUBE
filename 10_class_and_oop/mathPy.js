@@ -21,4 +21,9 @@ const chai = {
 console.log(Object.getOwnPropertyDescriptor(chai, "username"));
 
 
-Object
+Object.defineProperty(chai , "username",{
+  writable: false,
+  enumerable: false,  
+} )
+
+console.log(Object.getOwnPropertyDescriptor(chai, "username"));
