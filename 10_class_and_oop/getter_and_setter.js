@@ -41,5 +41,5 @@ class User{
 
 // const Ishmeet = new User ("ish@gmail.com","455")
 const Ishmeet = new User ("ish@gmail.com","absc")
-console.log(Ishmeet.password);
+console.log(Ishmeet.passwordb);
 console.log(Ishmeet.email);
